@@ -1,0 +1,5 @@
+text = raw_input("Text? ")
+width = len(text)
+print ("*" * (width + 4))
+print ("*" + " " + text + " " + "*")
+print ("*" * (width + 4))
